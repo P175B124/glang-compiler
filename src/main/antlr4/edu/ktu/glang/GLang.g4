@@ -21,10 +21,10 @@ expression
 intMultiOp : '*' | '/' | '%' ;
 intAddOp : '+' | '-' ;
 
-ifStatement : 'if' '(' expression relationOp expression ')' '{' statement+ '}'
-    ('else' '{' statement+ '}')? ;
+ifStatement : 'if' '(' expression relationOp expression ')' '{' statement '}'
+    ('else' '{' statement '}') ;
 
-relationOp : '==' | '!=' | '<' | '>' | '<=' | '>=' ;
+relationOp : '==' | '!=' ;
 
 printStatement : PRINT '(' expression ')' ;
 
