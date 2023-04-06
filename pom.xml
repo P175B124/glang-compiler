@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.ktu.glang</groupId>
-    <artifactId>glang-base</artifactId>
+    <artifactId>glang-compiler</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -91,7 +91,7 @@
                             <appendAssemblyId>false</appendAssemblyId>
                             <archive>
                                 <manifest>
-                                    <mainClass>edu.ktu.glang.Main</mainClass>
+                                    <mainClass>edu.ktu.glang.compiler.GLangCompiler</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -139,6 +139,11 @@
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
             <version>4.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.5</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

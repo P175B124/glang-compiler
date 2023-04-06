@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Compile sample test.glang" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="edu.ktu.glang.compiler.GLangCompiler" />
+    <module name="glang-compiler" />
+    <option name="PROGRAM_PARAMETERS" value="samples/test.glang target/compiler-output.jar" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="edu.ktu.glang.compiler.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
